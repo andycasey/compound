@@ -1,7 +1,5 @@
 #!/bin/bash -x
 
-export TMPDIR=.
-
 # Build the paper
 cd paper
 make
