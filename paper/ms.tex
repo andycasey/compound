@@ -1,29 +1,64 @@
-\documentclass[preprint]{aastex}
+\documentclass{aastex61}
 
-\IfFileExists{vc.tex}{\input{vc.tex}}{\newcommand{\githash}{UNKNOWN}\newcommand{\giturl}{UNKNOWN}}
+% For revision history
+\IfFileExists{vc.tex}{\input{vc.tex}}{
+    \newcommand{\githash}{UNKNOWN}
+    \newcommand{\giturl}{UNKNOWN}}
 
+% Define commands
 \newcommand{\acronym}[1]{{\small{#1}}}
 \newcommand{\project}[1]{\textsl{#1}}
 
+%\received{}
+%\revised{}
+%\accepted{}
+
+\submitjournal{AAS Journals}
+
+\shorttitle{Chemical heterogeneity in wide binary systems}
+\shortauthors{Casey \& Bovy}
 
 \begin{document}
-\title{Research is fucked}
 
-\author{
-  Andrew~R.~Casey\altaffilmark{1}
-}
+
+\title{Chemical heterogeneity in wide binary systems}
+
+
+\author[0000-0003-0174-0564]{Andrew R. Casey}
+\email{arc@ast.cam.ac.uk}
+\affil{Institute of Astronomy, Madingley Road, Cambridge CB3~0HA, UK}
+
+\author[0000-0001-6855-442X]{Jo Bovy}
+\email{bovy@astro.utoronto.ca}
+\affiliation{
+    Department of Astronomy and Astrophysics, University of Toronto, 
+    50 St. George Street, Toronto, ON, M5S 3H4, Canada}
+\affiliation{
+    Center for Computational Astrophysics, 162 5th Ave, New York, NY 10010, USA}
 
 
 \begin{abstract}
-Words.
+This example manuscript is intended to serve as a tutorial and template for
+authors to use when writing their own AAS Journal articles. The manuscript
+includes a history of aastex and documents the new features in the
+previous version, 6.0, as well as the new features in version 6.1. This
+manuscript includes many figure and table examples to illustrate these new
+features.  Information on features not explicitly mentioned in the article
+can be viewed in the manuscript comments or more extensive online
+documentation. Authors are welcome replace the text, tables, figures, and
+bibliography with their own and submit the resulting manuscript to the AAS
+Journals peer review system.  The first lesson in the tutorial is to remind
+authors that the AAS Journals, the Astrophysical Journal (ApJ), the
+Astrophysical Journal Letters (ApJL), and Astronomical Journal (AJ), all
+have a 250 word limit for the abstract.  If you exceed this length the
+Editorial office will ask you to shorten it.
 \end{abstract}
 
-
 \keywords{}
-
 
 \section{Introduction} 
 \label{sec:introduction}
 Write.
+
 
 \end{document}
