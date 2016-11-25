@@ -1,4 +1,4 @@
-LATEX       = pdflatex
+LATEX       = openout_any=a pdflatex
 
 all: ms.pdf
 
